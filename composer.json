@@ -1,0 +1,18 @@
+{
+  "name": "chuongle/clutch",
+  "description": "Clutch CLI that can interact with Drupal Site.",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Chuong Le",
+      "email": "chuongtdle91@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "symfony/console": "^3.0"
+  },
+  "bin": [
+    "bin/clutch"
+  ]
+}

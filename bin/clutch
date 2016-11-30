@@ -1,0 +1,10 @@
+<?php
+
+require __DIR__.'/../vendor/autoload.php';
+
+use Clutch\Command;
+use Symfony\Component\Console\Application;
+
+$application = new Application('ClutchCLI', '@package_version@');
+$application->add(new Command\HelloCommand());
+$application->run();
